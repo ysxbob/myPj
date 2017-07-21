@@ -1,0 +1,16 @@
+servre:
+  port: 8080
+
+
+datasource:
+  driver-class-name: com.mysql.jdbc.Driver
+  url:
+  username:
+  password:
+jpa:
+  hibernate:
+    ddl-auto: create #update create:drop create
+  show-sql: true
+
+
+
